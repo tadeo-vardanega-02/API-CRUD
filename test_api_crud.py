@@ -32,7 +32,7 @@ else:
 post_id = created_post['id']
 updated_post = {
     "title": "Mi post actualizado",
-    "author": "Juan Perez",
+    "author": "Tadeo",
     "content": "Este es mi post actualizado"
 }
 response = requests.put(f'{BASE_URL}/posts/{post_id}', json=updated_post)
